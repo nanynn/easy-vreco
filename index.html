@@ -12,16 +12,24 @@
 	<section>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 col-xs-12">
+				<div class="col-md-3 col-xs-12 text-center">
 					<button id="encuentrame">Encuentráme</button>
-
+				</div>
+				<div class="col-md-3 col-xs-12 cajita">
 					<label for="origen">Origen</label>
 					<input type="text" placeholder="introduce una ubicación">
-
+				</div>
+				<div class="col-md-3 col-xs-12 cajita">
 					<label for="destino">Destino</label>
 					<input type="text" placeholder="introduce una ubicación">
-
+				</div>
+				<div class="col-md-3 col-xs-12 text-center">
 					<button id="ruta">Ruta</button>
+				</div>	
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12" id="map">
+				<!-- Aquí ira nuestro mapa -->
 				</div>
 			</div>
 		</div>
@@ -33,5 +41,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="assets/js/main.js"></script>
+	  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSeu40XQ5PTcJJL_lEzv-veXZ60bsHa50&callback=initMap"
+  type="text/javascript"></script>
 </body>
 </html>
